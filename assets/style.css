@@ -26,15 +26,12 @@ h1 {
     display: inline-flex;
 }
 
-header nav ul {
+nav {
     display: inline-flex;
     float: right;
     list-style: none;
     background-color: orange;
-}
-
-li {
-    margin-right: 25px;
+    color: white;
 }
 
 #main-work {
