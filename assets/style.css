@@ -30,3 +30,11 @@ header nav ul {
 li {
     margin-right: 25px;
 }
+
+#main-work {
+    height: 300px;
+}
+
+.second-work {
+    height: 300px;
+}
