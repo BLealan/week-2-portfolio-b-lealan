@@ -1,3 +1,11 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: inline-flex;
+}
+
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
@@ -5,4 +13,13 @@ h1 {
 
 .title-name {
     font-weight: bolder;
+    display: inline-flex;
+}
+
+nav {
+    display: inline-flex;
+}
+
+ul {
+    list-style: none;
 }
