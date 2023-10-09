@@ -3,43 +3,24 @@ body {
 }
 header {
     display: flex;
-    background: orange;
+    background: #cc6d1f;
+    width:100%;
     color: white;
     padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 10px;
-}
-/*header {
-    background-color: orange;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    color: white;
-    justify-content: space-between;
-    display: flex;
-    ext-shadow: 1px 1px 10px black;
-}
-
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-}
-
-.title-name {
-    font-weight: bolder;
-    display: inline-flex;
 }
 
 .navigation-links ul li{
-    display: inline;
     display: flex;
-    float: right;
+    justify-content: flex-end;
+    flex-direction: row;
     padding: 10px;
     padding-right: 25px;
     padding-left: 25px;
     list-style-type: none;
     text-decoration: none;
-    background-color: darkblue;
+    background-color:#1c1b69;
     color: white;
 }
 
@@ -68,4 +49,4 @@ h1 {
 
 .about p {
     line-height: 20px;
-}*/
+}
