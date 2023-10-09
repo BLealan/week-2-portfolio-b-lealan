@@ -1,18 +1,16 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /*display: flex;
-    flex-wrap: wrap;*/
     background-color: lightblue;
 }
 
-.navigation-bar {
-    justify-content: space-between;
-}
-
 header {
-    flex: auto;
+    display: flex;
     background-color: orange;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     color: white;
+    justify-content: space-between;
     /*text-shadow: 1px 1px 10px black;*/
 }
 
@@ -26,12 +24,27 @@ h1 {
     display: inline-flex;
 }
 
-nav {
-    display: inline-flex;
+.navigation-links li{
+    display: inline;
+    display: flex;
     float: right;
-    list-style: none;
-    background-color: orange;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: darkblue;
     color: white;
+}
+
+.navigation-links a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-bar li a:hover {
+    background-color: blue;
 }
 
 #main-work {
@@ -40,4 +53,8 @@ nav {
 
 .second-work {
     height: 300px;
+}
+
+#profile-portrait {
+    height:200px;
 }
