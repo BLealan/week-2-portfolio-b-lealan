@@ -34,19 +34,21 @@ header {
     background-color: blue;
 }
 
-
-#main-work {
-    height: 300px;
-}
-
-.second-work {
-    height: 300px;
-}
-
 #profile-portrait {
     height:200px;
 }
 
-.about p {
-    line-height: 20px;
+p {
+    font-size: 25px;
 }
+
+#main-work {
+    height: 300px;
+    border-radius: 8px;
+}
+
+.secondary-work {
+    height: 200px;
+    border-radius: 8px;
+}
+
