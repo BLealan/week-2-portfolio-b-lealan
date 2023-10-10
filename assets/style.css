@@ -1,6 +1,8 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
 }
+
 header {
     display: flex;
     background: #cc6d1f;
@@ -28,20 +30,29 @@ header {
     text-decoration: none;
 }
 
+#about, #work, #contact {
+    margin: 30px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-style: groove;
+    border-radius: 20px;
+}
+
 #profile-portrait {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:200px;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .titles{
-    font-size: 25px;
-    margin-top: 40px;
+    font-size: 35px;
+    margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    font-weight: lighter;
 }
 
 p {
@@ -62,8 +73,16 @@ p {
     object-fit: cover;
     border-radius: 10px;
 }
+#contact ul {
+    text-align: center;
+}
 
 #contact a, #contact li {
-    font-size:18px
-    
+    color: black;
+    font-size:18px;
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
 }
