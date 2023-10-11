@@ -13,22 +13,27 @@ header {
     padding-left: 10px;
     text-shadow: 4px 4px 20px black;
 }
-
-.navigation-links ul li{
-    display: inline-block;
-    padding: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
-    list-style-type: none;
-    text-decoration: none;
-    background-color:#1c1b69;
-    color: white;
+.navigation-links ul {
+    list-style-type:none;
+    background-color: #1c1b69;
+    overflow: hidden;
 }
 
-.navigation-links a {
+.navigation-links li {
+    float:left;
+}
+
+.navigation-links li a {
+    display: block;
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navigation-links li a:hover {
+    text-decoration: underline;
+    background-color: #cc6d1f;
 }
 
 #about, #work, #contact {
@@ -62,6 +67,7 @@ p {
     margin-right: 65px;
     text-align: justify;
 }
+
  #work {
     text-align: center;
  }
@@ -113,7 +119,7 @@ p {
     padding: 5px;
 }
 
-#contact li:hover, .navigation-links li:hover {
+#contact li:hover {
     text-decoration: underline;
 }
 

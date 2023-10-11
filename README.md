@@ -17,6 +17,7 @@ Here are some resources I used to guide writing the code:
 https://www.tutorialspoint.com/html/html_email_links.htm
 https://www.w3schools.com/css/css3_object-fit.asp
 https://css-tricks.com/almanac/properties/l/letter-spacing/
+https://www.w3schools.com/css/css_navbar_horizontal.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS
 https://www.w3schools.com/css/default.asp
 
