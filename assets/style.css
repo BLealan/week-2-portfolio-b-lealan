@@ -31,11 +31,11 @@ header {
     text-decoration: none;
 }
 
-#about, #work, #contact {
+.about, .work, .contact {
     margin: 30px;
     padding: 10px;
     background-color: whitesmoke;
-    border-style: groove;
+    border-style:solid;
     border-radius: 20px;
 }
 
@@ -65,22 +65,25 @@ p {
 
 #main-work {
     height: 200px;
-    width:400px;
+    width:66%;
     object-fit: cover;
     border-radius: 10px;
+    justify-content: center;
+    display: block;
 }
 
 .secondary-work {
     height: 200px;
-    width: 200px;
+    width: 33%;
     object-fit: cover;
     border-radius: 10px;
+    justify-content: center;
 }
-#contact ul {
+.contact ul {
     text-align: center;
 }
 
-#contact a, #contact li {
+.contact a, .contact li {
     color: black;
     font-size:18px;
     text-align: center;
@@ -90,7 +93,7 @@ p {
     padding: 5px;
 }
 
-#contact li:hover, .navigation-links li:hover {
+.contact li:hover, .navigation-links li:hover {
     text-decoration: underline;
 }
 
