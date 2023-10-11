@@ -62,23 +62,27 @@ p {
     margin-right: 65px;
     text-align: justify;
 }
-
+ .work {
+    text-align: center;
+ }
 #main-work {
-    height: 200px;
-    width:66%;
+    height: 300px;
+    width:75%;
     object-fit: cover;
     border-radius: 10px;
     justify-content: center;
-    display: block;
+    display: inline-block;
+    margin: 10px;
 }
 
 .secondary-work {
-    height: 200px;
-    width: 33%;
+    height:200px;
+    width: 40%;
     object-fit: cover;
     border-radius: 10px;
-    justify-content: center;
+    display: inline-block;
 }
+
 .contact ul {
     text-align: center;
 }
