@@ -12,7 +12,7 @@ As the screen width is adjusted to the needs of the user, the elements of the pa
 
 Here is a link for the live version of the site:
 
-
+- https://blealan.github.io/week-2-portfolio-b-lealan/
 
 Here are some screenshots of the site, with elements changing depending on the width of the browser window.
 
