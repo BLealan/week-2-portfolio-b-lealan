@@ -4,6 +4,10 @@
 
 In order to showcase personal work, skills and indeed development, having an online portfolio is a vital asset for employers. As such, we were tasked with creating our own personal portfolio, coding the HTML and CSS from scratch. With the structural elements and content featured in the HTML, the real challenge for me was in CSS and wrestling with the layout of the page!
 
+The navigation bar at the top of the screen feature hover elements to indicate they are useable links, and highlight the users current selection. The images under the Work section have text overlaying the centre of the images to title them, which I felt looked better than captions underneath the images. 
+
+As the screen width is adjusted to the needs of the user, the elements of the page will change size and remain centered, thus maintaining the original flow of the page and keeping a consistent aesthetic style.
+
 ## Usage
 
 Here is a link for the live version of the site:
